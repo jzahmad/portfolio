@@ -60,7 +60,12 @@ function Projects() {
           description="Developed a robotics program where a robot can follow a line and avoid all the obstacles that come in the way."
           link="https://github.com/jzahmad/LineF-OjecA"
         />
-
+        <ProjectCard
+          title="USCurrencyConverter"
+          technologies="Kotlin, XML, SQLite, APIs"
+          description="Developed a Android app that can covert US currency to other currencies. It takes an API, store it to database and and then display using xml and Kotlin's adapters"
+          link="https://github.com/jzahmad/USCurrencyCoverter.git"
+        />
       </div>
 
     </div>
