@@ -127,9 +127,8 @@ const Navbar = () => {
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
                             href='../assets/Resume.pdf'
-                            download
-                            target='_blank'>
-                            Resume <BsFillPersonLinesFill size={30} />
+                            download="Jazib_Ahmad_Resume">
+                            Resume <BsFillPersonLinesFill size={30}/>
                         </a>
                     </li>
                 </ul>
