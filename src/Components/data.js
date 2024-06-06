@@ -56,18 +56,6 @@ export const data = [
         image: dash,
         github: "https://github.com/jzahmad/Stock-Dashboard.git"
     },
-    {
-        id: 7,
-        name: "Meals Compo",
-        image: meals,
-        github: "https://github.com/jzahmad/mealscompo.git"
-    },
-    {
-        id: 8,
-        name: "Portfolio",
-        image: port,
-        github: "https://github.com/jzahmad/portfolio.git"
-    },
 
     // mobile apps
     {
