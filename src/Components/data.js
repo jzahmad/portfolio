@@ -52,26 +52,26 @@ export const data = [
 
     {
         id: 6,
-        name: "Stock Dashboard",
-        image: dash,
-        github: "https://github.com/jzahmad/Stock-Dashboard.git"
+        name: "Portfolio",
+        image: port,
+        github: "https://github.com/jzahmad/portfolio.git"
     },
 
     // mobile apps
     {
-        id: 9,
+        id: 7,
         name: "Job Boost",
         image: job,
         github: "https://github.com/jzahmad/Jboost.git"
     },
     {
-        id: 10,
+        id: 8,
         name: "Cities Explorer",
         image: cities,
         github: "https://github.com/jzahmad/CitiesExplorer.git"
     },
     {
-        id: 11,
+        id: 9,
         name: "APIs-CurrencyCoverter",
         image: currency,
         github: "https://github.com/jzahmad/APIs-CurrencyCoverter.git"
@@ -79,19 +79,19 @@ export const data = [
 
     // games
     {
-        id: 12,
+        id: 10,
         name: "Pong",
         image: pong,
         github: "https://github.com/jzahmad/Pong.git"
     },
     {
-        id: 13,
+        id: 11,
         name: "Jumpsy",
         image: jump,
         github: "https://github.com/jzahmad/Jumpsy.git"
     },
     {
-        id: 14,
+        id: 12,
         name: "Mercers-Odyssey",
         image: m,
         github: "https://github.com/jzahmad/Mercers-Odyssey.git"
@@ -99,25 +99,25 @@ export const data = [
 
     // C & Robots
     {
-        id: 15,
+        id: 13,
         name: "Line Follower & Object Avoider Robot",
         image: aseba,
         github: "https://github.com/jzahmad/LineF-OjecA.git"
     },
     {
-        id: 16,
+        id: 14,
         name: "CPU-schedular",
         image: cpu,
         github: "https://github.com/jzahmad/CPU-schedular.git"
     },
     {
-        id: 17,
+        id: 15,
         name: "Rock Paper Scissor-Linux",
         image: rp,
         github: "https://github.com/jzahmad/RPS-unix.git"
     },
     {
-        id: 18,
+        id: 16,
         name: "Data Structures in C",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
         github: "https://github.com/jzahmad/Data-Structures-in-C.git"
