@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+## Jazib Ahmad's Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the code for Jazib Ahmad's portfolio website. It's a React application showcasing his skills,
+projects, and contact information.
 
-## Available Scripts
+### Features
 
-In the project directory, you can run:
+* **Responsive Design:** The website is designed to be responsive and look great on all devices.
+* **Smooth Scrolling:** Use the navigation menu to smoothly scroll to different sections of the page.
+* **Interactive Elements:** Hover effects and animations enhance user experience.
+* **Social Media Links:** Access Jazib's LinkedIn and Github profiles.
+* **Contact Form:** Send Jazib a message through the contact form.
+* **Project Showcase:** A detailed showcase of Jazib's projects, including links to code repositories.
 
-### `npm start`
+### Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The project follows a component-based structure using React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **`src/App.js`:** The main entry point of the application, rendering all the components.
+* **`src/Components/`:** Contains all the reusable components, including Navbar, Home, Skills, Projects, Contact, and
+About.
+* **`src/assets/`:** Stores images, logos, and other static files used in the project.
+* **`src/index.js`:** Entry point for the application.
 
-### `npm test`
+### Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Languages:**
+* JavaScript
+* HTML
+* CSS
+* **Framework:** React
+* **Styling:** Tailwind CSS
+* **Icons:**
+* React Icons
+* **Font:**
+* Raleway (Google Fonts)
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
+```bash
+git clone https://github.com/jzahmad/portfolio.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Navigate to the project directory:**
+```bash
+cd portfolio
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install dependencies:**
+```bash
+npm install
+```
 
-### `npm run eject`
+### Running the Project Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Start the development server:**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Access the website in your browser:**
+Open `http://localhost:3000` in your web browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Configuration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The website uses Tailwind CSS for styling. You can customize the styles in `tailwind.config.js`.
 
-## Learn More
+### Testing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project includes basic unit tests for the `App` component. You can run the tests using:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm test
+```
 
-### Code Splitting
+### Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are welcome! Please follow these guidelines:
 
-### Analyzing the Bundle Size
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Submit a pull request to the original repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Licensing
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
